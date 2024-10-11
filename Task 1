@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand navbar-logo" href="#">it's Me:</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#homeSection">HOME
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="navItem2" href="#aboutSection">ABOUT ME</a>
+                    <a class="nav-link" id="navItem3" href="#projectSection">PROJECT</a>
+                    <a class="nav-link" id="navItem4" href="#contactMeSection">CONTACT ME</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="homepage-background d-flex justify-content-center flex-column" id="homeSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center d-flex flex-row">
+                        <div class="m-4 text-left d-flex justify-content-center flex-column p-4">
+                            <h1 class="intro-heading p-2 m-2">I'm a Frontend Developer</h1>
+                            <h4 class="intro-name p-2 m-2 text-right">-Akriti Srivastav</h4>
+                        </div>
+                        <div class="text-center p-5 pt-5">
+                            <img src="https://res.cloudinary.com/drbcoeycw/image/upload/v1728669726/WhatsApp_Image_2024-10-11_at_23.31.35_rdh6ff.jpg" class="intro-image m-4" />
+                        </div>
+                    </div>
+                    <p class="intro-para p-4 m-4 text-center">
+                        Highlight your passion for building interactive and user-centric
+                        experiences
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aboutpage-background p-4" id="aboutSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="about-me-heading text-center pt-3 pb-3">About Me</h1>
+                    <div class="about-card m-3 p-3">
+                        <h1 class="about-heading">SUMMARY :</h1>
+                        <p class="about-paragraph">
+                            I'm a frontend developer passionate about crafting seamless,
+                            interactive, and visually stunning user experiences. With a strong
+                            foundation in HTML, CSS, and JavaScript, and a love for modern
+                            frameworks like React and Vue.js, I thrive at the intersection of
+                            design and functionality. My focus is on creating responsive, intuitive
+                            interfaces that not only look great but solve real-world problems.
+                            <br />
+                            When I’m not coding, you’ll find me exploring the latest trends in web
+                            development, experimenting with new tools, or collaborating with other
+                            developers to push the boundaries of what’s possible online.
+                        </p>
+                    </div>
+                    <div class="about-card m-3 p-3">
+                        <h1 class="about-heading">SKILLS :</h1>
+                        <ul class="about-paragraph">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>React</li>
+                            <li>Next.js</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-background" id="projectSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="projects-heading text-center pt-3 pb-3">Projects</h1>
+                    <div class="m-4 project-card p-4">
+                        <h1 class="project-heading">Typing Speed Test :</h1>
+                        <a target="_blank" href="astypingspeed.ccbp.tech" class="links">
+                            lets check
+                        </a>
+                    </div>
+                    <div class="m-4 project-card p-4">
+                        <h1 class="project-heading">Search Wikipedia :</h1>
+                        <a target="_blank" href="akritiwikipedia.ccbp.tech" class="links">
+                            lets check
+                        </a>
+                    </div>
+                    <div class="m-4 project-card p-4">
+                        <h1 class="project-heading">Todo List :</h1>
+                        <a target="_blank" href="akrititodolist.ccbp.tech" class="links">
+                            lets check
+                        </a>
+                    </div>
+                    <div class="m-4 project-card p-4">
+                        <h1 class="project-heading">AI Avatar :</h1>
+                        <a target="_blank" href="akritiaiavatar.ccbp.tech" class="links">
+                            lets check
+                        </a>
+                    </div>
+                    <div class="m-4 project-card p-4">
+                        <h1 class="project-heading">Food Munch :</h1>
+                        <a target="_blank" href="fooodies.ccbp.tech" class="links">
+                            lets check
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-me-background pt-5 pb-5" id="contactMeSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="contact-me-heading text-center pt-3 pb-3">Contact Me</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center" id="twitter">
+                        <div class="contact-me-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="contact-me-icon-container" id="linkedin">
+                            <i class="fab fa-linkedin icon"></i>
+                        </div>
+                        <div class="contact-me-icon-container" id="instagram">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+/*CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-logo {
+    font-family: Caveat;
+    font-size: 70px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.homepage-background {
+    background-color: #faeade;
+}
+
+.intro-heading {
+    font-family: Playfair;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.intro-name {
+    font-family: Playfair;
+    font-size: 40px;
+    color: #10044d;
+    font-weight: bold;
+}
+
+.intro-para {
+    font-family: roboto;
+    font-size: 30px;
+}
+
+.intro-image {
+    height: 600px;
+    width: 600px;
+    border-radius: 600px;
+}
+
+.aboutpage-background {
+    background-color: #eef2c9;
+}
+
+.about-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.about-heading {
+    font-family: Display;
+    font-size: 50px;
+    color: #4d0437;
+}
+
+.about-paragraph {
+    font-family: roboto;
+    font-size: 30px;
+    color: #240119;
+}
+
+.project-background {
+    background-color: #f5e8e4;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.project-heading {
+    font-family: Display;
+    font-size: 50px;
+    color: #8c1c0d;
+}
+
+.links {
+    font-family: roboto;
+    font-size: 30px;
+
+}
+
+.contact-me-background {
+    background-color: #e4f3f5;
+}
+
+.contact-me-heading {
+    font-family: Playfair;
+    font-size: 50px;
+    color: #032e33;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about-me-heading {
+    font-family: Playfair;
+    font-size: 50px;
+    color: #032e33;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.projects-heading {
+    font-family: Playfair;
+    font-size: 50px;
+    color: #032e33;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-me-icon-container {
+    background-color: #8dc3c9;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #244d52;
+    font-size: 35px;
+}
