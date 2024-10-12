@@ -1,7 +1,11 @@
 Name: Akriti Srivastav
+
 Company: CODETECH IT SOLUTIONS PVT.LTD
+
 ID: CT08DS8672
+
 Domain: Frontend Web Development
+
 Duration: October to November 2024
 
 OVERVIEW OF THE PROJECT 
