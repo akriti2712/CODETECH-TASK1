@@ -5,6 +5,7 @@ Domain: Frontend Web Development
 Duration: October to November 2024
 
 OVERVIEW OF THE PROJECT 
+
 Project: Personal Portfolio Of a Frontend Developer
 
 Objective: 
